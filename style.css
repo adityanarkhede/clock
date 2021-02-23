@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+#clockcontainer{
+    margin: auto;
+    border: 5px groove goldenrod;
+    height:80vh;
+    width:80vh;
+    background: url(IMG1.png) no-repeat ;
+    background-size: 100%;
+    position: relative;
+    
+}
+#hour,#minute,#second{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin:bottom;
+
+}
+#hour{
+    width: 2%;
+    height: 18%;
+    top: 28.8%;
+    left: 49.5%;
+    opacity: 0.7;
+    
+
+
+}
+#minute{
+   width: 1%;
+   height: 26%;
+   top: 21%;
+   left:49.5% ;
+   opacity: 0.7;
+    
+}
+#second{
+    width: 0.5%;
+    height: 40%;
+    top: 7%;
+    left: 49.5%;
+    opacity: 0.7;
+    
+}
+#h2{
+position:absolute;
+border-radius: 10px;
+top:65%;
+left:45.5%;
+}
